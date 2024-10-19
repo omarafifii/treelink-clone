@@ -17,7 +17,7 @@ class ProfilesController < ApplicationController
 
   # GET /profiles/1/edit
   def edit
-    redirect_to_root_path
+    redirect_to root_path
   end
 
   # POST /profiles or /profiles.json
